@@ -67,6 +67,7 @@ scoop环境配置
 # 更换 Scoop 源
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 scoop config SCOOP_REPO "https://gitee.com/scoop-installer/scoop"
+scoop-cn https://mirror.ghproxy.com/https://github.com/duzyn/scoop-cn
 scoop config SCOOP_REPO 'https://ghproxy.net/https://github.com/ScoopInstaller/Scoop' 
 scoop update
 # 注意：引号里面换成自己的路径，如果是默认路径则为${Env:USERPROFILE}\scoop\buckets\<bucket_name>
